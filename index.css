@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding:0;
+}
+.phone{
+	width:320px;
+	height:600px;
+	border:2px #000 solid;
+	margin: 30px auto; 
+	/*border-radious最大值160*/
+	border-radius: 20px;
+	background-color: #10163b;
+}
+.top{
+	width: 240px;
+	height: 30px;
+	/*background-color: blue;*/
+	margin: 20px auto;
+}
+.screen{
+	width: 300px;
+	height: 430px;
+	background-color: #000;
+	margin: 0 auto;
+	background-image: url(1.jpg);
+	background-size: cover;
+}
+.home{
+	width: 120px;
+	height: 60px;
+	border: 5px solid #000;
+	/*圆角 圆角所在圆的半径值*/
+	border-radius: 20px;
+	margin: 10px auto 0;
+}
+.box{
+	width: 150px;
+	height: 14px;
+	border: 1px solid #000;
+	border-radius: 13px;
+	float: left;
+	margin-top: 8px;
+	margin-left: 28px;
+
+}
+.circle1{
+	width: 8px;
+	height: 8px;
+	background-color:#000;
+	border-radius: 50%;
+	/*元素浮动，把块元素或其他元素从左往右排*/
+	float: left;
+	margin-top: 11px;
+	margin-left: 8px;
+}
+.circle2{
+	width: 12px;
+	height: 12px;
+	background-color:#000;
+	border-radius: 50%;
+	float: left;
+	margin-top: 9px;
+	margin-left: 8px;
+}
